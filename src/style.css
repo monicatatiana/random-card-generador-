@@ -1,1 +1,80 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: pink;
+}
+
+h1 {
+  color: fuchsia;
+  margin: 30px;
+}
+
+.card {
+  text-align: center;
+  display: inline-block;
+  background: white;
+  margin: auto;
+  height: 300px;
+  font-size: 80px;
+  width: 250px;
+  padding: 20px;
+  padding-top: 180px;
+  border: 2px solid fuchsia;
+  box-shadow: 5px 5px 4px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  position: relative;
+  left: 200px;
+}
+#espadatop {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+}
+#corazontop {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+  color: rgb(252, 65, 127);
+}
+#treboltop {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+}
+#rombotop {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 80px;
+  color: rgb(252, 65, 127);
+}
+
+#espadabajo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+}
+#corazonbajo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  color: rgb(252, 65, 127);
+}
+
+#trebolbajo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+}
+
+#rombobajo {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 80px;
+  color: rgb(252, 65, 127);
+}
